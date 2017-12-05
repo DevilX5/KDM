@@ -34,6 +34,10 @@ namespace KDM
 
     public class Poiinfo
     {
+        public Poiinfo()
+        {
+            smartTags = new List<Smarttag>();
+        }
         public int avgPrice { get; set; }
         public float avgScore { get; set; }
         public string cateName { get; set; }
@@ -48,7 +52,7 @@ namespace KDM
         public string iUrl { get; set; }
         public Poiimgextra poiImgExtra { get; set; }
         public Extraservicetag[] extraServiceTags { get; set; }
-        public Smarttag[] smartTags { get; set; }
+        public List<Smarttag> smartTags { get; set; }
         public Preferentialinfo preferentialInfo { get; set; }
         public string ctPoi { get; set; }
         public string distance { get; set; }
@@ -67,8 +71,12 @@ namespace KDM
 
     public class Maidan
     {
+        public Maidan()
+        {
+            entries = new List<Entry>();
+        }
         public int defaultShowNum { get; set; }
-        public Entry[] entries { get; set; }
+        public List<Entry> entries { get; set; }
     }
 
     public class Entry
