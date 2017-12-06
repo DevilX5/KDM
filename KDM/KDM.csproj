@@ -60,7 +60,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="MeiTuan.cs" />
-    <Compile Include="Mtlst.cs" />
+    <Compile Include="MtDetail.cs" />
+    <Compile Include="MtMobileLst.cs" />
+    <Compile Include="MtWebLst.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

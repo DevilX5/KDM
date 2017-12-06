@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace KDM
 {
 
-    public class MtLst
+    public class MtMobileLst
     {
         public int status { get; set; }
         public Data data { get; set; }
